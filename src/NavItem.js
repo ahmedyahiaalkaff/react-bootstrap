@@ -59,7 +59,7 @@ class NavItem extends React.Component {
       <li
         role="presentation"
         className={classNames(className, { active, disabled })}
-        style={style}
+        style={style} lang={props['lang']}
       >
         <SafeAnchor
           {...props}
